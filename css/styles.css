@@ -59,3 +59,15 @@ nav ul a {
   width: 60%;
   padding: 1rem;
 }
+
+.ajax .content > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+}
+.ajax .item {
+  border-bottom: 1px dotted #aaa;
+}
+h3 {
+  height: 55px;
+}
